@@ -7,7 +7,7 @@ Para isso, use a seguinte linha de comando:<br />
 
 **@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"**
 <br />
-Se você não vir nenhum erro, você está pronto para usar o Chocolatey! Digite chocoou choco -?<br />
+Se você não ver nenhum erro, você está pronto para usar o Chocolatey! Digite choco ou choco -?<br />
 
 **Get-ExecutionPolicy**
 Se o powershell retornar a mensagem *"Restricted"*, use o seguinte comando para verificar a lista de politicas de execução:
