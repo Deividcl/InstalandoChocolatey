@@ -42,4 +42,6 @@ Logo, o objetivo era para efetuar a instalação do K6 para testes de performanc
 
 Obrigado pela leitura!
 
+*Referência:<br />
+https://docs.chocolatey.org/en-us/choco/setup*
  
